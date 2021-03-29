@@ -348,6 +348,7 @@
     <HelpKINode Title="GammaTransferEffect.BufferPrecision Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_GammaTransferEffect_BufferPrecision.htm" />
     <HelpKINode Title="GaussianBlurEffect.BufferPrecision Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_GaussianBlurEffect_BufferPrecision.htm" />
     <HelpKINode Title="GrayscaleEffect.BufferPrecision Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_GrayscaleEffect_BufferPrecision.htm" />
+    <HelpKINode Title="HdrToneMapEffect.BufferPrecision Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect_BufferPrecision.htm" />
     <HelpKINode Title="HighlightsAndShadowsEffect.BufferPrecision Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_HighlightsAndShadowsEffect_BufferPrecision.htm" />
     <HelpKINode Title="HueRotationEffect.BufferPrecision Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_HueRotationEffect_BufferPrecision.htm" />
     <HelpKINode Title="HueToRgbEffect.BufferPrecision Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_HueToRgbEffect_BufferPrecision.htm" />
@@ -382,6 +383,7 @@
     <HelpKINode Title="TurbulenceEffect.BufferPrecision Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_TurbulenceEffect_BufferPrecision.htm" />
     <HelpKINode Title="UnPremultiplyEffect.BufferPrecision Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_UnPremultiplyEffect_BufferPrecision.htm" />
     <HelpKINode Title="VignetteEffect.BufferPrecision Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_VignetteEffect_BufferPrecision.htm" />
+    <HelpKINode Title="WhiteLevelAdjustmentEffect.BufferPrecision Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_WhiteLevelAdjustmentEffect_BufferPrecision.htm" />
   </HelpKINode>
   <HelpKINode Title="CacheOnDemand enumeration member" Url="html/T_Microsoft_Graphics_Canvas_CanvasVirtualBitmapOptions.htm" />
   <HelpKINode Title="CacheOutput property">
@@ -412,6 +414,7 @@
     <HelpKINode Title="GammaTransferEffect.CacheOutput Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_GammaTransferEffect_CacheOutput.htm" />
     <HelpKINode Title="GaussianBlurEffect.CacheOutput Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_GaussianBlurEffect_CacheOutput.htm" />
     <HelpKINode Title="GrayscaleEffect.CacheOutput Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_GrayscaleEffect_CacheOutput.htm" />
+    <HelpKINode Title="HdrToneMapEffect.CacheOutput Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect_CacheOutput.htm" />
     <HelpKINode Title="HighlightsAndShadowsEffect.CacheOutput Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_HighlightsAndShadowsEffect_CacheOutput.htm" />
     <HelpKINode Title="HueRotationEffect.CacheOutput Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_HueRotationEffect_CacheOutput.htm" />
     <HelpKINode Title="HueToRgbEffect.CacheOutput Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_HueToRgbEffect_CacheOutput.htm" />
@@ -446,6 +449,7 @@
     <HelpKINode Title="TurbulenceEffect.CacheOutput Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_TurbulenceEffect_CacheOutput.htm" />
     <HelpKINode Title="UnPremultiplyEffect.CacheOutput Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_UnPremultiplyEffect_CacheOutput.htm" />
     <HelpKINode Title="VignetteEffect.CacheOutput Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_VignetteEffect_CacheOutput.htm" />
+    <HelpKINode Title="WhiteLevelAdjustmentEffect.CacheOutput Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_WhiteLevelAdjustmentEffect_CacheOutput.htm" />
   </HelpKINode>
   <HelpKINode Title="CanBreak enumeration member" Url="html/T_Microsoft_Graphics_Canvas_Text_CanvasLineBreakCondition.htm" />
   <HelpKINode Title="CannotBreak enumeration member" Url="html/T_Microsoft_Graphics_Canvas_Text_CanvasLineBreakCondition.htm" />
@@ -2396,6 +2400,7 @@
   <HelpKINode Title="DisplacementMapEffect.Source property" Url="html/P_Microsoft_Graphics_Canvas_Effects_DisplacementMapEffect_Source.htm" />
   <HelpKINode Title="DisplacementMapEffect.XChannelSelect property" Url="html/P_Microsoft_Graphics_Canvas_Effects_DisplacementMapEffect_XChannelSelect.htm" />
   <HelpKINode Title="DisplacementMapEffect.YChannelSelect property" Url="html/P_Microsoft_Graphics_Canvas_Effects_DisplacementMapEffect_YChannelSelect.htm" />
+  <HelpKINode Title="DisplayMode property" Url="html/P_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect_DisplayMode.htm" />
   <HelpKINode Title="Dispose method">
     <HelpKINode Title="AlphaMaskEffect.Dispose Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_AlphaMaskEffect_Dispose.htm" />
     <HelpKINode Title="ArithmeticCompositeEffect.Dispose Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_ArithmeticCompositeEffect_Dispose.htm" />
@@ -2459,6 +2464,7 @@
     <HelpKINode Title="GammaTransferEffect.Dispose Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_GammaTransferEffect_Dispose.htm" />
     <HelpKINode Title="GaussianBlurEffect.Dispose Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_GaussianBlurEffect_Dispose.htm" />
     <HelpKINode Title="GrayscaleEffect.Dispose Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_GrayscaleEffect_Dispose.htm" />
+    <HelpKINode Title="HdrToneMapEffect.Dispose Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect_Dispose.htm" />
     <HelpKINode Title="HighlightsAndShadowsEffect.Dispose Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_HighlightsAndShadowsEffect_Dispose.htm" />
     <HelpKINode Title="HueRotationEffect.Dispose Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_HueRotationEffect_Dispose.htm" />
     <HelpKINode Title="HueToRgbEffect.Dispose Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_HueToRgbEffect_Dispose.htm" />
@@ -2492,6 +2498,7 @@
     <HelpKINode Title="TurbulenceEffect.Dispose Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_TurbulenceEffect_Dispose.htm" />
     <HelpKINode Title="UnPremultiplyEffect.Dispose Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_UnPremultiplyEffect_Dispose.htm" />
     <HelpKINode Title="VignetteEffect.Dispose Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_VignetteEffect_Dispose.htm" />
+    <HelpKINode Title="WhiteLevelAdjustmentEffect.Dispose Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_WhiteLevelAdjustmentEffect_Dispose.htm" />
   </HelpKINode>
   <HelpKINode Title="Dissolve enumeration member" Url="html/T_Microsoft_Graphics_Canvas_Effects_BlendEffectMode.htm" />
   <HelpKINode Title="DistantDiffuseEffect class">
@@ -2935,6 +2942,7 @@
     <HelpKINode Title="GammaTransferEffect.GetBounds Method " Url="html/Overload_Microsoft_Graphics_Canvas_Effects_GammaTransferEffect_GetBounds.htm" />
     <HelpKINode Title="GaussianBlurEffect.GetBounds Method " Url="html/Overload_Microsoft_Graphics_Canvas_Effects_GaussianBlurEffect_GetBounds.htm" />
     <HelpKINode Title="GrayscaleEffect.GetBounds Method " Url="html/Overload_Microsoft_Graphics_Canvas_Effects_GrayscaleEffect_GetBounds.htm" />
+    <HelpKINode Title="HdrToneMapEffect.GetBounds Method " Url="html/Overload_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect_GetBounds.htm" />
     <HelpKINode Title="HighlightsAndShadowsEffect.GetBounds Method " Url="html/Overload_Microsoft_Graphics_Canvas_Effects_HighlightsAndShadowsEffect_GetBounds.htm" />
     <HelpKINode Title="HueRotationEffect.GetBounds Method " Url="html/Overload_Microsoft_Graphics_Canvas_Effects_HueRotationEffect_GetBounds.htm" />
     <HelpKINode Title="HueToRgbEffect.GetBounds Method " Url="html/Overload_Microsoft_Graphics_Canvas_Effects_HueToRgbEffect_GetBounds.htm" />
@@ -2969,6 +2977,7 @@
     <HelpKINode Title="TurbulenceEffect.GetBounds Method " Url="html/Overload_Microsoft_Graphics_Canvas_Effects_TurbulenceEffect_GetBounds.htm" />
     <HelpKINode Title="UnPremultiplyEffect.GetBounds Method " Url="html/Overload_Microsoft_Graphics_Canvas_Effects_UnPremultiplyEffect_GetBounds.htm" />
     <HelpKINode Title="VignetteEffect.GetBounds Method " Url="html/Overload_Microsoft_Graphics_Canvas_Effects_VignetteEffect_GetBounds.htm" />
+    <HelpKINode Title="WhiteLevelAdjustmentEffect.GetBounds Method " Url="html/Overload_Microsoft_Graphics_Canvas_Effects_WhiteLevelAdjustmentEffect_GetBounds.htm" />
   </HelpKINode>
   <HelpKINode Title="GetBreakpoints method" Url="html/Overload_Microsoft_Graphics_Canvas_Text_CanvasTextAnalyzer_GetBreakpoints.htm" />
   <HelpKINode Title="GetBrush method" Url="html/M_Microsoft_Graphics_Canvas_Text_CanvasTextLayout_GetBrush.htm" />
@@ -3042,6 +3051,7 @@
     <HelpKINode Title="GammaTransferEffect.GetInvalidRectangles Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_GammaTransferEffect_GetInvalidRectangles.htm" />
     <HelpKINode Title="GaussianBlurEffect.GetInvalidRectangles Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_GaussianBlurEffect_GetInvalidRectangles.htm" />
     <HelpKINode Title="GrayscaleEffect.GetInvalidRectangles Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_GrayscaleEffect_GetInvalidRectangles.htm" />
+    <HelpKINode Title="HdrToneMapEffect.GetInvalidRectangles Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect_GetInvalidRectangles.htm" />
     <HelpKINode Title="HighlightsAndShadowsEffect.GetInvalidRectangles Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_HighlightsAndShadowsEffect_GetInvalidRectangles.htm" />
     <HelpKINode Title="HueRotationEffect.GetInvalidRectangles Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_HueRotationEffect_GetInvalidRectangles.htm" />
     <HelpKINode Title="HueToRgbEffect.GetInvalidRectangles Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_HueToRgbEffect_GetInvalidRectangles.htm" />
@@ -3076,6 +3086,7 @@
     <HelpKINode Title="TurbulenceEffect.GetInvalidRectangles Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_TurbulenceEffect_GetInvalidRectangles.htm" />
     <HelpKINode Title="UnPremultiplyEffect.GetInvalidRectangles Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_UnPremultiplyEffect_GetInvalidRectangles.htm" />
     <HelpKINode Title="VignetteEffect.GetInvalidRectangles Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_VignetteEffect_GetInvalidRectangles.htm" />
+    <HelpKINode Title="WhiteLevelAdjustmentEffect.GetInvalidRectangles Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_WhiteLevelAdjustmentEffect_GetInvalidRectangles.htm" />
   </HelpKINode>
   <HelpKINode Title="GetJustificationOpportunities method" Url="html/M_Microsoft_Graphics_Canvas_Text_CanvasTextAnalyzer_GetJustificationOpportunities.htm" />
   <HelpKINode Title="GetLeadingCharacterSpacing method" Url="html/M_Microsoft_Graphics_Canvas_Text_CanvasTextLayout_GetLeadingCharacterSpacing.htm" />
@@ -3129,6 +3140,7 @@
     <HelpKINode Title="GammaTransferEffect.GetRequiredSourceRectangle Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_GammaTransferEffect_GetRequiredSourceRectangle.htm" />
     <HelpKINode Title="GaussianBlurEffect.GetRequiredSourceRectangle Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_GaussianBlurEffect_GetRequiredSourceRectangle.htm" />
     <HelpKINode Title="GrayscaleEffect.GetRequiredSourceRectangle Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_GrayscaleEffect_GetRequiredSourceRectangle.htm" />
+    <HelpKINode Title="HdrToneMapEffect.GetRequiredSourceRectangle Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect_GetRequiredSourceRectangle.htm" />
     <HelpKINode Title="HighlightsAndShadowsEffect.GetRequiredSourceRectangle Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_HighlightsAndShadowsEffect_GetRequiredSourceRectangle.htm" />
     <HelpKINode Title="HueRotationEffect.GetRequiredSourceRectangle Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_HueRotationEffect_GetRequiredSourceRectangle.htm" />
     <HelpKINode Title="HueToRgbEffect.GetRequiredSourceRectangle Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_HueToRgbEffect_GetRequiredSourceRectangle.htm" />
@@ -3163,6 +3175,7 @@
     <HelpKINode Title="TurbulenceEffect.GetRequiredSourceRectangle Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_TurbulenceEffect_GetRequiredSourceRectangle.htm" />
     <HelpKINode Title="UnPremultiplyEffect.GetRequiredSourceRectangle Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_UnPremultiplyEffect_GetRequiredSourceRectangle.htm" />
     <HelpKINode Title="VignetteEffect.GetRequiredSourceRectangle Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_VignetteEffect_GetRequiredSourceRectangle.htm" />
+    <HelpKINode Title="WhiteLevelAdjustmentEffect.GetRequiredSourceRectangle Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_WhiteLevelAdjustmentEffect_GetRequiredSourceRectangle.htm" />
   </HelpKINode>
   <HelpKINode Title="GetRequiredSourceRectangles method">
     <HelpKINode Title="AlphaMaskEffect.GetRequiredSourceRectangles Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_AlphaMaskEffect_GetRequiredSourceRectangles.htm" />
@@ -3192,6 +3205,7 @@
     <HelpKINode Title="GammaTransferEffect.GetRequiredSourceRectangles Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_GammaTransferEffect_GetRequiredSourceRectangles.htm" />
     <HelpKINode Title="GaussianBlurEffect.GetRequiredSourceRectangles Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_GaussianBlurEffect_GetRequiredSourceRectangles.htm" />
     <HelpKINode Title="GrayscaleEffect.GetRequiredSourceRectangles Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_GrayscaleEffect_GetRequiredSourceRectangles.htm" />
+    <HelpKINode Title="HdrToneMapEffect.GetRequiredSourceRectangles Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect_GetRequiredSourceRectangles.htm" />
     <HelpKINode Title="HighlightsAndShadowsEffect.GetRequiredSourceRectangles Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_HighlightsAndShadowsEffect_GetRequiredSourceRectangles.htm" />
     <HelpKINode Title="HueRotationEffect.GetRequiredSourceRectangles Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_HueRotationEffect_GetRequiredSourceRectangles.htm" />
     <HelpKINode Title="HueToRgbEffect.GetRequiredSourceRectangles Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_HueToRgbEffect_GetRequiredSourceRectangles.htm" />
@@ -3226,6 +3240,7 @@
     <HelpKINode Title="TurbulenceEffect.GetRequiredSourceRectangles Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_TurbulenceEffect_GetRequiredSourceRectangles.htm" />
     <HelpKINode Title="UnPremultiplyEffect.GetRequiredSourceRectangles Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_UnPremultiplyEffect_GetRequiredSourceRectangles.htm" />
     <HelpKINode Title="VignetteEffect.GetRequiredSourceRectangles Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_VignetteEffect_GetRequiredSourceRectangles.htm" />
+    <HelpKINode Title="WhiteLevelAdjustmentEffect.GetRequiredSourceRectangles Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_WhiteLevelAdjustmentEffect_GetRequiredSourceRectangles.htm" />
   </HelpKINode>
   <HelpKINode Title="GetScript method" Url="html/Overload_Microsoft_Graphics_Canvas_Text_CanvasTextAnalyzer_GetScript.htm" />
   <HelpKINode Title="GetScriptProperties method" Url="html/M_Microsoft_Graphics_Canvas_Text_CanvasTextAnalyzer_GetScriptProperties.htm" />
@@ -3307,6 +3322,30 @@
   </HelpKINode>
   <HelpKINode Title="HasTypographicMetrics property" Url="html/P_Microsoft_Graphics_Canvas_Text_CanvasFontFace_HasTypographicMetrics.htm" />
   <HelpKINode Title="HasVerticalGlyphVariants property" Url="html/P_Microsoft_Graphics_Canvas_Text_CanvasFontFace_HasVerticalGlyphVariants.htm" />
+  <HelpKINode Title="Hdr enumeration member" Url="html/T_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffectDisplayMode.htm" />
+  <HelpKINode Title="HdrToneMapEffect class">
+    <HelpKINode Title="HdrToneMapEffect Class" Url="html/T_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect.htm" />
+    <HelpKINode Title="about HdrToneMapEffect class" Url="html/T_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HdrToneMapEffect.BufferPrecision property" Url="html/P_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect_BufferPrecision.htm" />
+  <HelpKINode Title="HdrToneMapEffect.CacheOutput property" Url="html/P_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect_CacheOutput.htm" />
+  <HelpKINode Title="HdrToneMapEffect.DisplayMode property" Url="html/P_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect_DisplayMode.htm" />
+  <HelpKINode Title="HdrToneMapEffect.Dispose method" Url="html/M_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect_Dispose.htm" />
+  <HelpKINode Title="HdrToneMapEffect.GetBounds method" Url="html/Overload_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect_GetBounds.htm" />
+  <HelpKINode Title="HdrToneMapEffect.GetInvalidRectangles method" Url="html/M_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect_GetInvalidRectangles.htm" />
+  <HelpKINode Title="HdrToneMapEffect.GetRequiredSourceRectangle method" Url="html/M_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect_GetRequiredSourceRectangle.htm" />
+  <HelpKINode Title="HdrToneMapEffect.GetRequiredSourceRectangles method" Url="html/M_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect_GetRequiredSourceRectangles.htm" />
+  <HelpKINode Title="HdrToneMapEffect.HdrToneMapEffect constructor" Url="html/M_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect__ctor.htm" />
+  <HelpKINode Title="HdrToneMapEffect.InputMaxLuminance property" Url="html/P_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect_InputMaxLuminance.htm" />
+  <HelpKINode Title="HdrToneMapEffect.InvalidateSourceRectangle method" Url="html/M_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect_InvalidateSourceRectangle.htm" />
+  <HelpKINode Title="HdrToneMapEffect.IsSupported property" Url="html/P_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect_IsSupported.htm" />
+  <HelpKINode Title="HdrToneMapEffect.Name property" Url="html/P_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect_Name.htm" />
+  <HelpKINode Title="HdrToneMapEffect.OutputMaxLuminance property" Url="html/P_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect_OutputMaxLuminance.htm" />
+  <HelpKINode Title="HdrToneMapEffect.Source property" Url="html/P_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect_Source.htm" />
+  <HelpKINode Title="HdrToneMapEffectDisplayMode enumeration" Url="html/T_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffectDisplayMode.htm" />
   <HelpKINode Title="Height field" Url="html/F_Microsoft_Graphics_Canvas_Text_CanvasLineMetrics_Height.htm" />
   <HelpKINode Title="Height property" Url="html/P_Microsoft_Graphics_Canvas_Effects_MorphologyEffect_Height.htm" />
   <HelpKINode Title="HeightMapInterpolationMode property">
@@ -3609,6 +3648,8 @@
     <HelpKINode Title="about InkStroke class" Url="html/T_Windows_UI_Input_Inking_InkStroke.htm" />
   </HelpKINode>
   <HelpKINode Title="Inline enumeration member" Url="html/T_Microsoft_Graphics_Canvas_Svg_CanvasSvgDisplay.htm" />
+  <HelpKINode Title="InputMaxLuminance property" Url="html/P_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect_InputMaxLuminance.htm" />
+  <HelpKINode Title="InputWhiteLevel property" Url="html/P_Microsoft_Graphics_Canvas_Effects_WhiteLevelAdjustmentEffect_InputWhiteLevel.htm" />
   <HelpKINode Title="InsertChildBefore method" Url="html/M_Microsoft_Graphics_Canvas_Svg_CanvasSvgNamedElement_InsertChildBefore.htm" />
   <HelpKINode Title="Intensity property" Url="html/P_Microsoft_Graphics_Canvas_Effects_SepiaEffect_Intensity.htm" />
   <HelpKINode Title="Interpolation property" Url="html/P_Microsoft_Graphics_Canvas_Brushes_CanvasImageBrush_Interpolation.htm" />
@@ -3658,6 +3699,7 @@
     <HelpKINode Title="GammaTransferEffect.InvalidateSourceRectangle Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_GammaTransferEffect_InvalidateSourceRectangle.htm" />
     <HelpKINode Title="GaussianBlurEffect.InvalidateSourceRectangle Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_GaussianBlurEffect_InvalidateSourceRectangle.htm" />
     <HelpKINode Title="GrayscaleEffect.InvalidateSourceRectangle Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_GrayscaleEffect_InvalidateSourceRectangle.htm" />
+    <HelpKINode Title="HdrToneMapEffect.InvalidateSourceRectangle Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect_InvalidateSourceRectangle.htm" />
     <HelpKINode Title="HighlightsAndShadowsEffect.InvalidateSourceRectangle Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_HighlightsAndShadowsEffect_InvalidateSourceRectangle.htm" />
     <HelpKINode Title="HueRotationEffect.InvalidateSourceRectangle Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_HueRotationEffect_InvalidateSourceRectangle.htm" />
     <HelpKINode Title="HueToRgbEffect.InvalidateSourceRectangle Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_HueToRgbEffect_InvalidateSourceRectangle.htm" />
@@ -3692,6 +3734,7 @@
     <HelpKINode Title="TurbulenceEffect.InvalidateSourceRectangle Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_TurbulenceEffect_InvalidateSourceRectangle.htm" />
     <HelpKINode Title="UnPremultiplyEffect.InvalidateSourceRectangle Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_UnPremultiplyEffect_InvalidateSourceRectangle.htm" />
     <HelpKINode Title="VignetteEffect.InvalidateSourceRectangle Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_VignetteEffect_InvalidateSourceRectangle.htm" />
+    <HelpKINode Title="WhiteLevelAdjustmentEffect.InvalidateSourceRectangle Method " Url="html/M_Microsoft_Graphics_Canvas_Effects_WhiteLevelAdjustmentEffect_InvalidateSourceRectangle.htm" />
   </HelpKINode>
   <HelpKINode Title="InvertAlpha property" Url="html/P_Microsoft_Graphics_Canvas_Effects_ChromaKeyEffect_InvertAlpha.htm" />
   <HelpKINode Title="InvertEffect class">
@@ -3754,8 +3797,10 @@
   <HelpKINode Title="IsSupported property">
     <HelpKINode Title="AlphaMaskEffect.IsSupported Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_AlphaMaskEffect_IsSupported.htm" />
     <HelpKINode Title="CrossFadeEffect.IsSupported Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_CrossFadeEffect_IsSupported.htm" />
+    <HelpKINode Title="HdrToneMapEffect.IsSupported Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect_IsSupported.htm" />
     <HelpKINode Title="OpacityEffect.IsSupported Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_OpacityEffect_IsSupported.htm" />
     <HelpKINode Title="TintEffect.IsSupported Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_TintEffect_IsSupported.htm" />
+    <HelpKINode Title="WhiteLevelAdjustmentEffect.IsSupported Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_WhiteLevelAdjustmentEffect_IsSupported.htm" />
   </HelpKINode>
   <HelpKINode Title="IsSymbolFont property" Url="html/P_Microsoft_Graphics_Canvas_Text_CanvasFontFace_IsSymbolFont.htm" />
   <HelpKINode Title="IsTrimmed field" Url="html/F_Microsoft_Graphics_Canvas_Text_CanvasLineMetrics_IsTrimmed.htm" />
@@ -4063,6 +4108,8 @@
   <HelpKINode Title="Microsoft.Graphics.Canvas.Effects.GammaTransferEffect class" Url="html/T_Microsoft_Graphics_Canvas_Effects_GammaTransferEffect.htm" />
   <HelpKINode Title="Microsoft.Graphics.Canvas.Effects.GaussianBlurEffect class" Url="html/T_Microsoft_Graphics_Canvas_Effects_GaussianBlurEffect.htm" />
   <HelpKINode Title="Microsoft.Graphics.Canvas.Effects.GrayscaleEffect class" Url="html/T_Microsoft_Graphics_Canvas_Effects_GrayscaleEffect.htm" />
+  <HelpKINode Title="Microsoft.Graphics.Canvas.Effects.HdrToneMapEffect class" Url="html/T_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect.htm" />
+  <HelpKINode Title="Microsoft.Graphics.Canvas.Effects.HdrToneMapEffectDisplayMode enumeration" Url="html/T_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffectDisplayMode.htm" />
   <HelpKINode Title="Microsoft.Graphics.Canvas.Effects.HighlightsAndShadowsEffect class" Url="html/T_Microsoft_Graphics_Canvas_Effects_HighlightsAndShadowsEffect.htm" />
   <HelpKINode Title="Microsoft.Graphics.Canvas.Effects.HueRotationEffect class" Url="html/T_Microsoft_Graphics_Canvas_Effects_HueRotationEffect.htm" />
   <HelpKINode Title="Microsoft.Graphics.Canvas.Effects.HueToRgbEffect class" Url="html/T_Microsoft_Graphics_Canvas_Effects_HueToRgbEffect.htm" />
@@ -4101,6 +4148,7 @@
   <HelpKINode Title="Microsoft.Graphics.Canvas.Effects.TurbulenceEffectNoise enumeration" Url="html/T_Microsoft_Graphics_Canvas_Effects_TurbulenceEffectNoise.htm" />
   <HelpKINode Title="Microsoft.Graphics.Canvas.Effects.UnPremultiplyEffect class" Url="html/T_Microsoft_Graphics_Canvas_Effects_UnPremultiplyEffect.htm" />
   <HelpKINode Title="Microsoft.Graphics.Canvas.Effects.VignetteEffect class" Url="html/T_Microsoft_Graphics_Canvas_Effects_VignetteEffect.htm" />
+  <HelpKINode Title="Microsoft.Graphics.Canvas.Effects.WhiteLevelAdjustmentEffect class" Url="html/T_Microsoft_Graphics_Canvas_Effects_WhiteLevelAdjustmentEffect.htm" />
   <HelpKINode Title="Microsoft.Graphics.Canvas.Geometry namespace" Url="html/N_Microsoft_Graphics_Canvas_Geometry.htm" />
   <HelpKINode Title="Microsoft.Graphics.Canvas.Geometry.CanvasArcSize enumeration" Url="html/T_Microsoft_Graphics_Canvas_Geometry_CanvasArcSize.htm" />
   <HelpKINode Title="Microsoft.Graphics.Canvas.Geometry.CanvasCachedGeometry class" Url="html/T_Microsoft_Graphics_Canvas_Geometry_CanvasCachedGeometry.htm" />
@@ -4292,6 +4340,7 @@
     <HelpKINode Title="GammaTransferEffect.Name Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_GammaTransferEffect_Name.htm" />
     <HelpKINode Title="GaussianBlurEffect.Name Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_GaussianBlurEffect_Name.htm" />
     <HelpKINode Title="GrayscaleEffect.Name Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_GrayscaleEffect_Name.htm" />
+    <HelpKINode Title="HdrToneMapEffect.Name Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect_Name.htm" />
     <HelpKINode Title="HighlightsAndShadowsEffect.Name Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_HighlightsAndShadowsEffect_Name.htm" />
     <HelpKINode Title="HueRotationEffect.Name Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_HueRotationEffect_Name.htm" />
     <HelpKINode Title="HueToRgbEffect.Name Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_HueToRgbEffect_Name.htm" />
@@ -4325,6 +4374,7 @@
     <HelpKINode Title="TurbulenceEffect.Name Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_TurbulenceEffect_Name.htm" />
     <HelpKINode Title="UnPremultiplyEffect.Name Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_UnPremultiplyEffect_Name.htm" />
     <HelpKINode Title="VignetteEffect.Name Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_VignetteEffect_Name.htm" />
+    <HelpKINode Title="WhiteLevelAdjustmentEffect.Name Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_WhiteLevelAdjustmentEffect_Name.htm" />
   </HelpKINode>
   <HelpKINode Title="National enumeration member" Url="html/T_Microsoft_Graphics_Canvas_Text_CanvasNumberSubstitutionMethod.htm" />
   <HelpKINode Title="Natural enumeration member">
@@ -4449,7 +4499,9 @@
   <HelpKINode Title="Outline method" Url="html/Overload_Microsoft_Graphics_Canvas_Geometry_CanvasGeometry_Outline.htm" />
   <HelpKINode Title="OutputColorProfile property" Url="html/P_Microsoft_Graphics_Canvas_Effects_ColorManagementEffect_OutputColorProfile.htm" />
   <HelpKINode Title="OutputColorSpace property" Url="html/P_Microsoft_Graphics_Canvas_Effects_RgbToHueEffect_OutputColorSpace.htm" />
+  <HelpKINode Title="OutputMaxLuminance property" Url="html/P_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect_OutputMaxLuminance.htm" />
   <HelpKINode Title="OutputRenderingIntent property" Url="html/P_Microsoft_Graphics_Canvas_Effects_ColorManagementEffect_OutputRenderingIntent.htm" />
+  <HelpKINode Title="OutputWhiteLevel property" Url="html/P_Microsoft_Graphics_Canvas_Effects_WhiteLevelAdjustmentEffect_OutputWhiteLevel.htm" />
   <HelpKINode Title="Overlap enumeration member" Url="html/T_Microsoft_Graphics_Canvas_Geometry_CanvasGeometryRelation.htm" />
   <HelpKINode Title="Overlay enumeration member" Url="html/T_Microsoft_Graphics_Canvas_Effects_BlendEffectMode.htm" />
   <HelpKINode Title="OverlayEdges property" Url="html/P_Microsoft_Graphics_Canvas_Effects_EdgeDetectionEffect_OverlayEdges.htm" />
@@ -4866,6 +4918,7 @@
   <HelpKINode Title="Screen enumeration member" Url="html/T_Microsoft_Graphics_Canvas_Effects_BlendEffectMode.htm" />
   <HelpKINode Title="ScRgb enumeration member" Url="html/T_Microsoft_Graphics_Canvas_CanvasColorSpace.htm" />
   <HelpKINode Title="ScriptIdentifier field" Url="html/F_Microsoft_Graphics_Canvas_Text_CanvasAnalyzedScript_ScriptIdentifier.htm" />
+  <HelpKINode Title="Sdr enumeration member" Url="html/T_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffectDisplayMode.htm" />
   <HelpKINode Title="Seed property" Url="html/P_Microsoft_Graphics_Canvas_Effects_TurbulenceEffect_Seed.htm" />
   <HelpKINode Title="SegmentData property" Url="html/P_Microsoft_Graphics_Canvas_Svg_CanvasSvgPathAttribute_SegmentData.htm" />
   <HelpKINode Title="SemanticTag enumeration member" Url="html/T_Microsoft_Graphics_Canvas_Text_CanvasFontPropertyIdentifier.htm" />
@@ -5056,6 +5109,7 @@
     <HelpKINode Title="GammaTransferEffect.Source Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_GammaTransferEffect_Source.htm" />
     <HelpKINode Title="GaussianBlurEffect.Source Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_GaussianBlurEffect_Source.htm" />
     <HelpKINode Title="GrayscaleEffect.Source Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_GrayscaleEffect_Source.htm" />
+    <HelpKINode Title="HdrToneMapEffect.Source Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_HdrToneMapEffect_Source.htm" />
     <HelpKINode Title="HighlightsAndShadowsEffect.Source Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_HighlightsAndShadowsEffect_Source.htm" />
     <HelpKINode Title="HueRotationEffect.Source Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_HueRotationEffect_Source.htm" />
     <HelpKINode Title="HueToRgbEffect.Source Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_HueToRgbEffect_Source.htm" />
@@ -5087,6 +5141,7 @@
     <HelpKINode Title="Transform3DEffect.Source Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_Transform3DEffect_Source.htm" />
     <HelpKINode Title="UnPremultiplyEffect.Source Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_UnPremultiplyEffect_Source.htm" />
     <HelpKINode Title="VignetteEffect.Source Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_VignetteEffect_Source.htm" />
+    <HelpKINode Title="WhiteLevelAdjustmentEffect.Source Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_WhiteLevelAdjustmentEffect_Source.htm" />
   </HelpKINode>
   <HelpKINode Title="Source1 property">
     <HelpKINode Title="ArithmeticCompositeEffect.Source1 Property " Url="html/P_Microsoft_Graphics_Canvas_Effects_ArithmeticCompositeEffect_Source1.htm" />
@@ -5689,6 +5744,27 @@
   <HelpKINode Title="Warning enumeration member" Url="html/T_Microsoft_Graphics_Canvas_CanvasDebugLevel.htm" />
   <HelpKINode Title="Weight enumeration member" Url="html/T_Microsoft_Graphics_Canvas_Text_CanvasFontPropertyIdentifier.htm" />
   <HelpKINode Title="Weight property" Url="html/P_Microsoft_Graphics_Canvas_Text_CanvasFontFace_Weight.htm" />
+  <HelpKINode Title="WhiteLevelAdjustmentEffect class">
+    <HelpKINode Title="WhiteLevelAdjustmentEffect Class" Url="html/T_Microsoft_Graphics_Canvas_Effects_WhiteLevelAdjustmentEffect.htm" />
+    <HelpKINode Title="about WhiteLevelAdjustmentEffect class" Url="html/T_Microsoft_Graphics_Canvas_Effects_WhiteLevelAdjustmentEffect.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Microsoft_Graphics_Canvas_Effects_WhiteLevelAdjustmentEffect__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Microsoft_Graphics_Canvas_Effects_WhiteLevelAdjustmentEffect.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Microsoft_Graphics_Canvas_Effects_WhiteLevelAdjustmentEffect.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WhiteLevelAdjustmentEffect.BufferPrecision property" Url="html/P_Microsoft_Graphics_Canvas_Effects_WhiteLevelAdjustmentEffect_BufferPrecision.htm" />
+  <HelpKINode Title="WhiteLevelAdjustmentEffect.CacheOutput property" Url="html/P_Microsoft_Graphics_Canvas_Effects_WhiteLevelAdjustmentEffect_CacheOutput.htm" />
+  <HelpKINode Title="WhiteLevelAdjustmentEffect.Dispose method" Url="html/M_Microsoft_Graphics_Canvas_Effects_WhiteLevelAdjustmentEffect_Dispose.htm" />
+  <HelpKINode Title="WhiteLevelAdjustmentEffect.GetBounds method" Url="html/Overload_Microsoft_Graphics_Canvas_Effects_WhiteLevelAdjustmentEffect_GetBounds.htm" />
+  <HelpKINode Title="WhiteLevelAdjustmentEffect.GetInvalidRectangles method" Url="html/M_Microsoft_Graphics_Canvas_Effects_WhiteLevelAdjustmentEffect_GetInvalidRectangles.htm" />
+  <HelpKINode Title="WhiteLevelAdjustmentEffect.GetRequiredSourceRectangle method" Url="html/M_Microsoft_Graphics_Canvas_Effects_WhiteLevelAdjustmentEffect_GetRequiredSourceRectangle.htm" />
+  <HelpKINode Title="WhiteLevelAdjustmentEffect.GetRequiredSourceRectangles method" Url="html/M_Microsoft_Graphics_Canvas_Effects_WhiteLevelAdjustmentEffect_GetRequiredSourceRectangles.htm" />
+  <HelpKINode Title="WhiteLevelAdjustmentEffect.InputWhiteLevel property" Url="html/P_Microsoft_Graphics_Canvas_Effects_WhiteLevelAdjustmentEffect_InputWhiteLevel.htm" />
+  <HelpKINode Title="WhiteLevelAdjustmentEffect.InvalidateSourceRectangle method" Url="html/M_Microsoft_Graphics_Canvas_Effects_WhiteLevelAdjustmentEffect_InvalidateSourceRectangle.htm" />
+  <HelpKINode Title="WhiteLevelAdjustmentEffect.IsSupported property" Url="html/P_Microsoft_Graphics_Canvas_Effects_WhiteLevelAdjustmentEffect_IsSupported.htm" />
+  <HelpKINode Title="WhiteLevelAdjustmentEffect.Name property" Url="html/P_Microsoft_Graphics_Canvas_Effects_WhiteLevelAdjustmentEffect_Name.htm" />
+  <HelpKINode Title="WhiteLevelAdjustmentEffect.OutputWhiteLevel property" Url="html/P_Microsoft_Graphics_Canvas_Effects_WhiteLevelAdjustmentEffect_OutputWhiteLevel.htm" />
+  <HelpKINode Title="WhiteLevelAdjustmentEffect.Source property" Url="html/P_Microsoft_Graphics_Canvas_Effects_WhiteLevelAdjustmentEffect_Source.htm" />
+  <HelpKINode Title="WhiteLevelAdjustmentEffect.WhiteLevelAdjustmentEffect constructor" Url="html/M_Microsoft_Graphics_Canvas_Effects_WhiteLevelAdjustmentEffect__ctor.htm" />
   <HelpKINode Title="WhitePoint property" Url="html/P_Microsoft_Graphics_Canvas_Effects_BrightnessEffect_WhitePoint.htm" />
   <HelpKINode Title="WhitePointXZ field" Url="html/F_Microsoft_Graphics_Canvas_Effects_ColorManagementSimpleProfile_WhitePointXZ.htm" />
   <HelpKINode Title="Whitespace enumeration member" Url="html/T_Microsoft_Graphics_Canvas_Text_CanvasClusterProperties.htm" />
