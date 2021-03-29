@@ -48,7 +48,7 @@ Licensed under the MIT License. See LICENSE.txt in the project root for license 
 
           <step><content>
             <para>
-              Select <legacyBold>Installed → Templates → Visual C# → Windows → Universal → Blank App (Universal Windows)</legacyBold>.
+              Select <legacyBold>Installed → Templates → Visual C# → ProjectReunion → WinUI → Blank App, Packaged (WinUI in Desktop)</legacyBold>.
             </para>
           </content></step>
 
@@ -65,7 +65,7 @@ Licensed under the MIT License. See LICENSE.txt in the project root for license 
 
           <step><content>
             <para>
-              Search for "Win2D" and select <legacyBold>Win2D.uwp</legacyBold>.
+              Search for "Win2D" and select <legacyBold>Microsoft.Graphics.Win2D</legacyBold>.
             </para>
             <para>
               Finally, click <legacyBold>Install</legacyBold>.
@@ -86,7 +86,7 @@ Licensed under the MIT License. See LICENSE.txt in the project root for license 
         <step><content>
           <para>
             In order to use Win2D, you need somewhere to draw your graphics. In a XAML app, the simplest way to do this is to add a
-            <codeEntityReference>T:Microsoft.Graphics.Canvas.UI.Xaml.CanvasControl</codeEntityReference> to your XAML page.
+            <codeEntityReference>T:Microsoft.Graphics.Canvas.UI.Xaml.CanvasControl</codeEntityReference> to your XAML Window.
           </para>
           <para>
             Before you continue, first ensure that the project's Architecture option is set to <codeInline>x86</codeInline> or
@@ -97,7 +97,7 @@ Licensed under the MIT License. See LICENSE.txt in the project root for license 
 
         <step><content>
           <para>
-            Navigate to <legacyBold>MainPage.xaml</legacyBold> in your project by double clicking on it in <legacyBold>Solution Explorer</legacyBold>.
+            Navigate to <legacyBold>MainWindow.xaml</legacyBold> in your project by double clicking on it in <legacyBold>Solution Explorer</legacyBold>.
             This will open the file. For convenience, you can double click on the <legacyBold>XAML</legacyBold> button in the
             <legacyBold>Designer</legacyBold> tab; this will hide the visual designer and reserve all of the space for the code view.
           </para>
@@ -106,11 +106,11 @@ Licensed under the MIT License. See LICENSE.txt in the project root for license 
         <step><content>
           <para>
             Before you add the control, you first have to tell XAML where <codeInline>CanvasControl</codeInline> is defined.
-            To do this, go to the definition of the <codeInline>Page</codeInline> element, and add this statement:
+            To do this, go to the definition of the <codeInline>Window</codeInline> element, and add this statement:
             <codeInline>xmlns:canvas="using:Microsoft.Graphics.Canvas.UI.Xaml"</codeInline>. Your XAML should now look like this:
           </para>
           <code language="xaml">
-            &lt;Page
+            &lt;Window
                 ...
                 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
                 xmlns:canvas="using:Microsoft.Graphics.Canvas.UI.Xaml"
@@ -125,7 +125,7 @@ Licensed under the MIT License. See LICENSE.txt in the project root for license 
             Your XAML should now look like this:
           </para>
           <code language="xaml">
-            &lt;Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"&gt;
+            &lt;Grid&gt;
                 &lt;canvas:CanvasControl x:Name="canvas"/&gt;
             &lt;/Grid&gt;
           </code>
@@ -144,7 +144,7 @@ Licensed under the MIT License. See LICENSE.txt in the project root for license 
           <para>
             Once you have entered in <codeInline>Draw="</codeInline>, Visual Studio should pop up a box prompting you to let it automatically
             fill out the right definition for the event handler. Press <legacyBold>TAB</legacyBold> to accept Visual Studio's default event handler. 
-            This will also automatically add a correctly formatted event handler method in your code behind (<legacyBold>MainPage.xaml.cs</legacyBold>).
+            This will also automatically add a correctly formatted event handler method in your code behind (<legacyBold>MainWindow.xaml.cs</legacyBold>).
             Don't worry if you didn't use AutoComplete; you can manually add the event handler method in the next step.
           </para>
         </content></step>
@@ -157,7 +157,7 @@ Licensed under the MIT License. See LICENSE.txt in the project root for license 
       <steps class="ordered">
 
         <step><content><para>
-          Now, let's go to the C# code behind. Open <legacyBold>MainPage.xaml.cs</legacyBold> from <legacyBold>Solution Explorer</legacyBold>.
+          Now, let's go to the C# code behind. Open <legacyBold>MainWindow.xaml.cs</legacyBold> from <legacyBold>Solution Explorer</legacyBold>.
         </para></content></step>
 
         <step><content>
@@ -238,38 +238,22 @@ Licensed under the MIT License. See LICENSE.txt in the project root for license 
         </content></step>
         
         <step><content><para>
-          Open <legacyBold>MainPage.xaml</legacyBold> and find the <legacyBold>Page</legacyBold> XAML
+          Open <legacyBold>MainWindow.xaml</legacyBold> and find the <legacyBold>Window</legacyBold> XAML
           element that contains your <legacyBold>CanvasControl</legacyBold>. It should be the first
           element in the file.
         </para></content></step>
-          
-        <step><content><para>
-          Add a handler for the <legacyBold>Unloaded</legacyBold> event. Your XAML should look like this:
-          <code language="xaml">
-            &lt;Page
-                ...
-                xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-                xmlns:canvas="using:Microsoft.Graphics.Canvas.UI.Xaml"
-                mc:Ignorable="d"
-                Unloaded="Page_Unloaded"&gt;
-          </code>
-        </para></content></step>
 
         <step><content><para>
-          Go to <legacyBold>MainPage.xaml.cs</legacyBold> and find the <legacyBold>Page_Unloaded</legacyBold>
-          event handler. Add the following code:
+          When you are ready to release the resources held by your Canvas, call the following code from your <legacyBold>MainWindow.xaml.cs</legacyBold>:
           <code language="cs">
-            void Page_Unloaded(object sender, RoutedEventArgs e)
-            {
-                this.canvas.RemoveFromVisualTree();
-                this.canvas = null;
-            }
+            this.canvas.RemoveFromVisualTree();
+            this.canvas = null;
           </code>
         </para></content></step>
         
         <step><content><para>
-          If your app contains multiple Win2D controls, then you need to repeat the above steps for each
-          XAML page that contains a Win2D control. Your app currently only has a single
+          If your app contains multiple Win2D controls, then you need to repeat the above steps for each 
+          Win2D control. Your app currently only has a single
           <legacyBold>CanvasControl</legacyBold> so you're all done.
         </para></content></step>
         
@@ -323,7 +307,7 @@ Licensed under the MIT License. See LICENSE.txt in the project root for license 
             Now, let's add some variety by drawing a bunch of shapes and text with randomized colors.
           </para>
           <para>
-            Add the following code to the top of your <codeInline>MainPage</codeInline> class. This is helper functionality to
+            Add the following code to the top of your <codeInline>MainWindow</codeInline> class. This is helper functionality to
             generate random values that you will use when drawing:
           </para>
           <code language="cs">
@@ -472,171 +456,6 @@ Licensed under the MIT License. See LICENSE.txt in the project root for license 
           Run the app again. You should see your lines, text and circles with a blurry appearance.
         </para></content></step>
 
-      </steps>
-    </procedure>
-
-    <procedure>
-      <title>Animate your app with CanvasAnimatedControl</title>
-      <steps class="ordered">
-
-        <step><content>
-          <para>
-            Win2D gives you the ability to update and animate your content in realtime, for example by changing the blur radius of the
-            Gaussian blur with every frame. To do this, you will use
-            <codeEntityReference>T:Microsoft.Graphics.Canvas.UI.Xaml.CanvasAnimatedControl</codeEntityReference>.
-          </para>
-          <para>
-            <codeInline>CanvasControl</codeInline> is best suited for mostly static graphics content - it only raises the
-            <codeInline>Draw</codeInline> event when your content needs to be updated or redrawn. If you have continually changing
-            content then you should consider using <codeInline>CanvasAnimatedControl</codeInline> instead.
-            The two controls operate very similarly, except <codeInline>CanvasAnimatedControl</codeInline> raises the
-            <codeInline>Draw</codeInline> event on a periodic basis; by default it is called 60 times per second.
-          </para>
-        </content></step>
-
-        <step><content>
-          <para>
-            To switch to <codeInline>CanvasAnimatedControl</codeInline>, go to <legacyBold>MainPage.xaml</legacyBold>, delete the
-            <codeInline>CanvasControl</codeInline> line, and replace it with the following XAML: 
-          </para>
-          <code language="xaml">
-            &lt;Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"&gt;
-                &lt;canvas:CanvasAnimatedControl x:Name="canvas" Draw="canvas_DrawAnimated" CreateResources="canvas_CreateResources"/&gt;
-            &lt;/Grid&gt;
-          </code>
-          <para>
-            Just like with <codeInline>CanvasControl</codeInline>, let AutoComplete create the
-            <codeInline>Draw</codeInline> event handler for you. By default, Visual Studio will name this
-            handler <codeInline>canvas_Draw_1</codeInline> because <codeInline>canvas_Draw</codeInline>
-            already exists; here, we've renamed the method <codeInline>canvas_AnimatedDraw</codeInline> to
-            make it clear that this is a different event.
-          </para>
-          <para>
-            In addition, you are also handling a new event,
-            <codeEntityReference>E:Microsoft.Graphics.Canvas.UI.Xaml.CanvasAnimatedControl.CreateResources</codeEntityReference>.
-            Once again, let AutoComplete create the handler.
-          </para>
-          <para>
-            Now that your app will be redrawing at 60 frames per second, it is more efficient to create your Win2D visual resources once and reuse
-            them with every frame. It is inefficient to create a <codeInline>CanvasCommandList</codeInline> and draw 300 elements into it 60 times
-            per second when the content remains static. <codeInline>CreateResources</codeInline> is an event that is fired only when Win2D
-            determines you need to recreate your visual resources, such as when the page is loaded.
-          </para>
-        </content></step>
-
-        <step><content>
-          <para>
-            Switch back to <legacyBold>MainPage.xaml.cs</legacyBold>. Find your <codeInline>canvas_Draw</codeInline> method which should look
-            like this:
-          </para>
-          <code language="cs">
-            private void canvas_Draw(
-                Microsoft.Graphics.Canvas.UI.Xaml.CanvasControl sender,
-                Microsoft.Graphics.Canvas.UI.Xaml.CanvasDrawEventArgs args)
-            {
-                CanvasCommandList cl = new CanvasCommandList(sender);
-                using (CanvasDrawingSession clds = cl.CreateDrawingSession())
-                {
-                    for (int i = 0; i &lt; 100; i++)
-                    {
-                        clds.DrawText("Hello, World!", RndPosition(), Color.FromArgb(255, RndByte(), RndByte(), RndByte()));
-                        clds.DrawCircle(RndPosition(), RndRadius(), Color.FromArgb(255, RndByte(), RndByte(), RndByte()));
-                        clds.DrawLine(RndPosition(), RndPosition(), Color.FromArgb(255, RndByte(), RndByte(), RndByte()));
-                    }
-                }
-
-                GaussianBlurEffect blur = new GaussianBlurEffect();
-                blur.Source = cl;
-                blur.BlurAmount = 10.0f;
-                args.DrawingSession.DrawImage(blur);
-            }
-          </code>
-          <para>
-            The vast majority of this existing draw code does not need to be executed with every frame: the command list containing the text,
-            lines and circles remains the same with every frame, and the only thing that changes is the blur radius. Therefore, you can move
-            this "static" code into <codeInline>CreateResources</codeInline>.
-          </para>
-          <para>
-            To do this, first cut (<legacyBold>CTRL+X</legacyBold>) the entire contents of <codeInline>canvas_Draw</codeInline>,
-            <legacyItalic>except</legacyItalic> for the very last line (<codeInline>args.DrawingSession.DrawImage(blur);</codeInline>).
-            You can now delete the remainder of <codeInline>canvas_Draw</codeInline> as it is no longer needed: recall that
-            <codeInline>CanvasAnimatedControl</codeInline> has its own distinct <codeInline>Draw</codeInline> event.
-          </para>
-        </content></step>
-
-        <step><content>
-          <para>
-            Find the automatically generated <codeInline>canvas_CreateResources</codeInline> method:
-          </para>
-          <code language="cs">
-            private void canvas_CreateResources(
-                Microsoft.Graphics.Canvas.UI.Xaml.CanvasAnimatedControl sender, 
-                Microsoft.Graphics.Canvas.UI.CanvasCreateResourcesEventArgs args)
-            {}
-          </code>
-          <para>
-            Paste (<legacyBold>CTRL+V</legacyBold>) your previously cut code into this method. Next, move the declaration of
-            <codeInline>GaussianBlurEffect</codeInline> outside the method body so the variable becomes a member of the MainPage class.
-            Your code should now look like the following:
-          </para>
-          <code language="cs">
-            GaussianBlurEffect blur;
-            private void canvas_CreateResources(
-                Microsoft.Graphics.Canvas.UI.Xaml.CanvasAnimatedControl sender,
-                Microsoft.Graphics.Canvas.UI.CanvasCreateResourcesEventArgs args)
-            {
-                CanvasCommandList cl = new CanvasCommandList(sender);
-                using (CanvasDrawingSession clds = cl.CreateDrawingSession())
-                {
-                    for (int i = 0; i &lt; 100; i++)
-                    {
-                        clds.DrawText("Hello, World!", RndPosition(), Color.FromArgb(255, RndByte(), RndByte(), RndByte()));
-                        clds.DrawCircle(RndPosition(), RndRadius(), Color.FromArgb(255, RndByte(), RndByte(), RndByte()));
-                        clds.DrawLine(RndPosition(), RndPosition(), Color.FromArgb(255, RndByte(), RndByte(), RndByte()));
-                    }
-                }
-
-                blur = new GaussianBlurEffect()
-                {
-                    Source = cl,
-                    BlurAmount = 10.0f
-                };
-            }
-          </code>
-        </content></step>
-
-        <step><content>
-          <para>
-            Now you can animate the Gaussian blur. Find the <codeInline>canvas_DrawAnimated</codeInline> method and add the
-            following code:
-          </para>
-          <code language="cs">
-            private void canvas_DrawAnimated(
-                Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl sender,
-                Microsoft.Graphics.Canvas.UI.Xaml.CanvasAnimatedDrawEventArgs args)
-            {
-                float radius = (float)(1 + Math.Sin(args.Timing.TotalTime.TotalSeconds)) * 10f;
-                blur.BlurAmount = radius;
-                args.DrawingSession.DrawImage(blur);
-            }
-          </code>
-          <para>
-            This reads the total elapsed time provided by
-            <codeEntityReference>T:Microsoft.Graphics.Canvas.UI.Xaml.CanvasAnimatedDrawEventArgs</codeEntityReference> and uses this to
-            calculate the desired blur amount; the sine function provides an interesting variation over time.
-            Finally, the <codeInline>GaussianBlurEffect</codeInline> is rendered.
-          </para>
-        </content></step>
-
-        <step><content>
-          <para>
-            Run the app to see the blurred content change over time. 
-          </para>
-          <para>
-            Congratulations on completing this quick start tutorial! Hopefully you have seen how you can use Win2D to create a
-            rich, animated visual scene with just a few lines of C# and XAML code.
-          </para>
-        </content></step>
       </steps>
     </procedure>
 

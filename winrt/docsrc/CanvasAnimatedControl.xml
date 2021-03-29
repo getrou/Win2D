@@ -12,9 +12,10 @@ Licensed under the MIT License. See LICENSE.txt in the project root for license 
   <members>
   
     <member name="T:Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl">
-      <summary>XAML control intended for displaying animating content.</summary>
+      <summary>XAML control intended for displaying animating content. Currently unsupported for WinUI3.</summary>
       <remarks>
-        <p>
+        <p>CanvasAnimatedControl is currently unsupported for WinUI3</p>
+        <!-- <p>
           CanvasAnimatedControl uses a CanvasSwapChain and CanvasSwapChainPanel
           for displaying graphics.  The swap chain is automatically resized and
           recreated as necessary.
@@ -402,12 +403,12 @@ Licensed under the MIT License. See LICENSE.txt in the project root for license 
           until after the GameLoopStopped event has completed.  The app's
           Unloaded event handlers will never run at the same time as the
           GameLoopStopped event.
-        </p>
+        </p> -->
 
       </remarks>
     </member> 
     <member name="T:Microsoft.Graphics.Canvas.UI.Xaml.CanvasAnimatedControl">
-      <summary>XAML control intended for displaying animating content.</summary>
+      <summary>XAML control intended for displaying animating content. Currently unsupported for WinUI3.</summary>
       <inheritdoc select="remarks"/>
     </member>   
 

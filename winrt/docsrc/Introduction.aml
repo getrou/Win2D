@@ -11,9 +11,8 @@ Licensed under the MIT License. See LICENSE.txt in the project root for license 
     <introduction>
       <para>
         Win2D is an easy-to-use Windows Runtime API for immediate mode 2D graphics
-        rendering with GPU acceleration. It is available to C#, C++ and VB developers
-        writing apps for the Windows Universal Platform (UWP). It utilizes the power
-        of Direct2D, and integrates seamlessly with XAML and CoreWindow.
+        rendering with GPU acceleration. It is available to WinUI3 app developers.
+        It utilizes the power of Direct2D, and integrates seamlessly with XAML.
       </para>
 
       <para>Where to get it:</para>
@@ -73,31 +72,16 @@ Licensed under the MIT License. See LICENSE.txt in the project root for license 
       <content>
         <para>
           <externalLink>
-            <linkText>Download and install Visual Studio</linkText>
-            <linkUri>https://www.visualstudio.com</linkUri>
+            <linkText>Getting Started with Project Reunion</linkText>
+            <linkUri>https://docs.microsoft.com/en-us/windows/apps/project-reunion/#set-up-your-development-environment</linkUri>
           </externalLink>:
         </para>
-
-        <list class="bullet">
-          <listItem>Minimum version: Visual Studio Community 2017</listItem>
-          <listItem>Visual Studio Tools for Universal Windows Apps 15.0.27428.01</listItem>
-          <listItem>Windows SDK 17134 (April 2018 Update)</listItem>
-        </list>
-        
-        <para>Create your project:</para>
-        <list class="bullet">
-          <listItem>Go to 'File' -> 'New' -> 'Project...'</listItem>
-          <listItem>Select 'Visual C#', 'Visual C++', or 'Visual Basic'</listItem>
-          <listItem>Create a 'Blank App (Universal Windows)'</listItem>
-          <listItem>Enter a project name of your choosing</listItem>
-          <listItem>Click 'OK'</listItem>
-        </list>
 
         <para>Add the Win2D NuGet package:</para>
         <list class="bullet">
           <listItem>Go to 'Tools' -> 'NuGet Package Manager' -> 'Manage NuGet Packages for Solution...'</listItem>
           <listItem>Type 'Win2D' into the 'Search Online' box, and hit Enter</listItem>
-          <listItem>Select the 'Win2D.uwp' package and click 'Install', then 'OK'</listItem>
+          <listItem>Select the 'Microsoft.Graphics.Win2D' package and click 'Install', then 'OK'</listItem>
           <listItem>Accept the license agreement</listItem>
           <listItem>Click 'Close'</listItem>
         </list>
@@ -109,7 +93,7 @@ Licensed under the MIT License. See LICENSE.txt in the project root for license 
       <content>
         <para>Add a <codeEntityReference>T:Microsoft.Graphics.Canvas.UI.Xaml.CanvasControl</codeEntityReference> to your XAML page:</para>
         <list class="bullet">
-          <listItem>Double click on MainPage.xaml in Solution Explorer to open the XAML editor</listItem>
+          <listItem>Double click on MainWindow.xaml in Solution Explorer to open the XAML editor</listItem>
           <listItem>
             Add the <codeEntityReference>N:Microsoft.Graphics.Canvas.UI.Xaml</codeEntityReference> namespace next to the existing xmlns statements:
             <code>
@@ -129,15 +113,15 @@ Licensed under the MIT License. See LICENSE.txt in the project root for license 
         <para>Then add some Win2D drawing code.</para>
         <list class="bullet">
           <listItem>
-            If you created a C# project, edit MainPage.xaml.cs:
+            If you created a C# project, edit MainWindow.xaml.cs:
             <code>
-              using Windows.UI;
-              using Windows.UI.Xaml.Controls;
+              using Microsoft.UI;
+              using Microsoft.UI.Xaml.Controls;
               using Microsoft.Graphics.Canvas.UI.Xaml;
 
-              public sealed partial class MainPage : Page
+              public sealed partial class MainWindow : Window
               {
-                  public MainPage()
+                  public MainWindow()
                   {
                       this.InitializeComponent();
                   }
@@ -152,26 +136,26 @@ Licensed under the MIT License. See LICENSE.txt in the project root for license 
           </listItem>
 
           <listItem>
-            If you created a C++/CX project, edit MainPage.xaml.h and add a function declaration to the MainPage class:
+            If you created a C++/CX project, edit MainWindow.xaml.h and add a function declaration to the MainWindow class:
             <code>
               void CanvasControl_Draw(Microsoft::Graphics::Canvas::UI::Xaml::CanvasControl^ sender,
                                       Microsoft::Graphics::Canvas::UI::Xaml::CanvasDrawEventArgs^ args);
             </code>
-            Then edit MainPage.xaml.cpp:
+            Then edit MainWindow.xaml.cpp:
             <code>
               #include "pch.h"
-              #include "MainPage.xaml.h"
+              #include "MainWindow.xaml.h"
 
               using namespace App1;
               using namespace Windows::UI;
               using namespace Microsoft::Graphics::Canvas::UI::Xaml;
 
-              MainPage::MainPage()
+              MainWindow::MainWindow()
               {
                   InitializeComponent();
               }
 
-              void MainPage::CanvasControl_Draw(CanvasControl^ sender, CanvasDrawEventArgs^ args)
+              void MainWindow::CanvasControl_Draw(CanvasControl^ sender, CanvasDrawEventArgs^ args)
               {
                   args->DrawingSession->DrawEllipse(155, 115, 80, 30, Colors::Black, 3);
                   args->DrawingSession->DrawText("Hello, world!", 100, 100, Colors::Yellow);
@@ -180,13 +164,13 @@ Licensed under the MIT License. See LICENSE.txt in the project root for license 
           </listItem>
 
           <listItem>
-            Or if you created a VB project, edit MainPage.xaml.vb:
+            Or if you created a VB project, edit MainWindow.xaml.vb:
             <code>
               Imports Windows.UI
-              Imports Windows.UI.Xaml.Controls
+              Imports Microsoft.UI.Xaml.Controls
               Imports Microsoft.Graphics.Canvas.UI.Xaml
               
-              Public NotInheritable Class MainPage
+              Public NotInheritable Class MainWindow
                   Inherits Page
                   Public Sub New()
                       Me.InitializeComponent()
@@ -202,38 +186,12 @@ Licensed under the MIT License. See LICENSE.txt in the project root for license 
         </list>
         
         <para>
-          If you prefer to build your own version of Win2D from source, see the 
+          If you prefer to build your own version of Win2D from source, see the WinUI3 branch 
           <externalLink>
             <linkUri>https://github.com/Microsoft/Win2D/blob/master/README.md</linkUri>
             <linkText>readme</linkText>
           </externalLink>
           for instructions on how to clone from GitHub and compile it locally.
-        </para>
-      </content>
-    </section>
-
-    <section address="Legacy81">
-      <title>Legacy support for Windows 8.1</title>
-      
-      <content>
-        <para>
-          Win2D 1.21.0 was the last release to support the Windows 8.1 and Windows Phone 8.1 
-          platforms. From Win2D 1.22.0 onward, only the Windows Universal Platform (UWP) is 
-          supported.
-        </para>
-
-        <para>
-          Legacy Win2D support for Windows and Phone 8.1 is available as a
-          <externalLink>
-            <linkText>NuGet package</linkText>
-            <linkUri>http://www.nuget.org/packages/Win2D.win81</linkUri>
-          </externalLink>
-          and from the
-          <externalLink>
-            <linkText>win81 branch</linkText>
-            <linkUri>https://github.com/Microsoft/Win2D/tree/win81</linkUri>
-          </externalLink>
-          on github.
         </para>
       </content>
     </section>
