@@ -9,6 +9,11 @@ Licensed under the MIT License. See LICENSE.txt in the project root for license 
   <developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
 
     <introduction>
+      <para><legacyBold>
+        Moving Win2D onto WinUI3/Project Reunion is a work in progress. Some features
+        are not supported, and some of the Documentation still points to old WinUI2
+        concepts and classes.
+      </legacyBold></para>
       <para>
         Win2D is an easy-to-use Windows Runtime API for immediate mode 2D graphics
         rendering with GPU acceleration. It is available to WinUI3 app developers.
@@ -20,7 +25,7 @@ Licensed under the MIT License. See LICENSE.txt in the project root for license 
         <listItem>
           <externalLink>
             <linkText>NuGet package</linkText>
-            <linkUri>http://www.nuget.org/packages/Win2D.uwp</linkUri>
+            <linkUri>http://www.nuget.org/packages/Microsoft.Graphics.Win2D</linkUri>
           </externalLink>
         </listItem>
         <listItem>
@@ -31,7 +36,8 @@ Licensed under the MIT License. See LICENSE.txt in the project root for license 
         </listItem>
       </list>
 
-      <para>How to use it:</para>
+      <!-- Re-add this when the sample gallery is updated for WinUI3 -->
+      <!-- <para>How to use it:</para>
       <list class="bullet">
         <listItem>
           <externalLink>
@@ -47,7 +53,7 @@ Licensed under the MIT License. See LICENSE.txt in the project root for license 
             </externalLink>
           </legacyItalic>
         </listItem>
-      </list>
+      </list> -->
 
       <para>More info:</para>
       <list class="bullet">
@@ -147,7 +153,7 @@ Licensed under the MIT License. See LICENSE.txt in the project root for license 
               #include "MainWindow.xaml.h"
 
               using namespace App1;
-              using namespace Windows::UI;
+              using namespace Microsoft::UI;
               using namespace Microsoft::Graphics::Canvas::UI::Xaml;
 
               MainWindow::MainWindow()
@@ -166,7 +172,7 @@ Licensed under the MIT License. See LICENSE.txt in the project root for license 
           <listItem>
             Or if you created a VB project, edit MainWindow.xaml.vb:
             <code>
-              Imports Windows.UI
+              Imports Microsoft.UI
               Imports Microsoft.UI.Xaml.Controls
               Imports Microsoft.Graphics.Canvas.UI.Xaml
               

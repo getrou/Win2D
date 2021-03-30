@@ -8,9 +8,13 @@ Licensed under the MIT License. See LICENSE.txt in the project root for license 
 <topic id="Features" revisionNumber="1">
   <developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
     <introduction>
+      <para><legacyBold>Moving Win2D onto WinUI3/Project Reunion is a work in progress. Some features are not supported, and some of the Documentation still points to old WinUI2 concepts and classes.</legacyBold></para>
 
       <para><legacyBold>Bitmap graphics</legacyBold></para>
       <list class="bullet">
+        <listItem><legacyItalic>
+          CanvasBitmap is not yet supported for WinUI3. Use CanvasVirtualBitmap instead.
+        </legacyItalic></listItem>
         <listItem>
           Load, save and draw
           <codeEntityReference linkText="bitmap">T:Microsoft.Graphics.Canvas.CanvasBitmap</codeEntityReference>
@@ -156,7 +160,7 @@ Licensed under the MIT License. See LICENSE.txt in the project root for license 
           </externalLink>
         </listItem>
         <listItem>
-          XAML <codeEntityReference linkText="CanvasAnimatedControl">T:Microsoft.Graphics.Canvas.UI.Xaml.CanvasAnimatedControl</codeEntityReference>
+          [Not supported for WinUI3] XAML <codeEntityReference linkText="CanvasAnimatedControl">T:Microsoft.Graphics.Canvas.UI.Xaml.CanvasAnimatedControl</codeEntityReference>
           provides Update/Draw game loop programming model
         </listItem>
         <listItem>

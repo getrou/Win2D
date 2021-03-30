@@ -37,7 +37,7 @@
     <OutputPath>$(MSBuildThisFileDirectory)..\..\bin\docs</OutputPath>
 
     <!-- Header and footer applied to all doc pages -->
-    <HelpTitle>Win2D documentation</HelpTitle>
+    <HelpTitle>Win2D for WinUI3 (Work in progress)</HelpTitle>
     <CopyrightText>Copyright %28c%29 Microsoft Corporation. All rights reserved.</CopyrightText>
     <CopyrightHref>http://github.com/Microsoft/Win2D/blob/master/LICENSE.txt</CopyrightHref>
 
