@@ -1,5 +1,12 @@
 # Win2D Changelog
 
+## Win2D-WinUI 0.5.0 - Project Reunion 0.5.0 support
+_March 31, 2021_
+
+This change updates the documentation to reflect the changes to Win2D on WinUI3.
+
+---
+
 ## Win2D 1.25.0 - XAML Islands support
 _April 2, 2020_
 
